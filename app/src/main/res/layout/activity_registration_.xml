@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Registration_Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/register"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:text="Registration"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FDFCFA"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Email_hint"
+               android:id="@+id/remailid"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColorHint="#F8F5F5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:padding="10dp"
+                android:id="@+id/rpassword"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColorHint="#F8F5F5" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:id="@+id/rbtnregister"
+                android:background="@drawable/button"
+                android:text="Register"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:id="@+id/rbtnlogin"
+                android:background="@drawable/button"
+                android:text="Log in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

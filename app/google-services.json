@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "523491392154",
+    "project_id": "kastakari-e236e",
+    "storage_bucket": "kastakari-e236e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523491392154:android:69457a5ebd1d801d357d23",
+        "android_client_info": {
+          "package_name": "com.akshay.kastakari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523491392154-k0ke7mmvnvev04tj1h2pt94v42djn186.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFXj7ZpA0qW9vjMODAZ-tMrmqlIaW6Bn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523491392154-k0ke7mmvnvev04tj1h2pt94v42djn186.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
